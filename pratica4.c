@@ -7,20 +7,20 @@
     seguinte padrão:
 */
 
-// void main () {
-//     int limitador;
-//     unsigned int fib = 1, atual = fib, antecessor = 0;
-//     printf("Informe o limitador: ");
-//     scanf("%d", &limitador);
+void main () {
+    int limitador;
+    unsigned int fib = 1, atual = fib, antecessor = 0;
+    printf("Informe o limitador: ");
+    scanf("%d", &limitador);
 
-//     for (int i = 0; i < limitador; i++) {
-//         printf("%d ", fib);
-//         fib = atual + antecessor;
-//         antecessor = atual;
-//         atual = fib;
+    for (int i = 0; i < limitador; i++) {
+        printf("%d ", fib);
+        fib = atual + antecessor;
+        antecessor = atual;
+        atual = fib;
 
-//     }
-// }
+    }
+}
 
 /*
     2) Uma empresa deseja registrar e analisar os dados de inscritos em seu processo seletivo
