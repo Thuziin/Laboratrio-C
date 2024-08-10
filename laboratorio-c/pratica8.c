@@ -30,7 +30,7 @@ struct Cliente {
 
 int incluirCliente (struct Cliente clientes[], int aux) {
     char resposta;
-    printf("MAXIMO DE CLIENTES E 10\n\n");
+    printf("MAXIMO DE CLIENTES E %d\n\n", MAXIMO);
 
     for (int i = 0; i < MAXIMO; i++) {
         printf("Deseja incluir mais um cliente? (s/n): ");
